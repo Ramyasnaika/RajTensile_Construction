@@ -51,6 +51,7 @@ public class aboutusTest {
 		ps.click();
 	}
 	
+	
 	@Test(priority=4)
 	void bestfeactures() throws InterruptedException
 	{	WebElement bf=driver.findElement(By.xpath("//h2[normalize-space()='BEST FEATURES']"));
@@ -77,6 +78,7 @@ public class aboutusTest {
 		WebElement aw=driver.findElement(By.xpath("//p[normalize-space()='AWARDS WON']"));
 		aw.isDisplayed();
 	}
+	
 	
 	@Test(priority=6)
 	void ourteam() throws InterruptedException
